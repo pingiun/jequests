@@ -1,0 +1,86 @@
+jequests.c:63:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "get", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+jequests.c:65:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "options", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+jequests.c:67:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "head", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+jequests.c:69:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "post", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+jequests.c:71:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "put", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+jequests.c:73:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "patch", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+jequests.c:75:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "delete", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+7 warnings generated.
+jequests.c:63:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "get", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+jequests.c:65:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "options", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+jequests.c:67:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "head", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+jequests.c:69:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "post", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+jequests.c:71:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "put", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+jequests.c:73:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "patch", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+jequests.c:75:15: warning: passing 'JanetKeyword' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strncmp(arg, "delete", n) == 0)
+              ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:84:26: note: passing argument to parameter '__s1' here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+                             ^
+7 warnings generated.
