@@ -58,7 +58,7 @@ void optarraytuple(const Janet *argv, int32_t argc, int32_t n,
   janet_panic_type(argv[n], n, JANET_TFLAG_ARRAY | JANET_TFLAG_TUPLE);
 }
 
-enum Method which_method(const char *arg) {
+enum Method which_method(JanetKeyword arg) {
   size_t n = janet_string_length(arg);
   if (strncmp(arg, "get", n) == 0)
     return Get;
@@ -110,7 +110,7 @@ static Janet cfun_request(int32_t argc, Janet *argv) {
   janet_arity(argc, 2, 4);
 
   JanetKeyword method_str = janet_getkeyword(argv, 0);
-  enum Method method = which_method((const char *)method_str);
+  enum Method method = which_method(method_str);
   const char *url = janet_getcstring(argv, 1);
   const uint8_t *data;
   int32_t data_length;
