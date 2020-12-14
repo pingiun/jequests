@@ -27,6 +27,7 @@
 (defn request
   "A raw wrapper around the cjequests/request function."
   [method url &opt data headers]
+  (default headers [])
   (let [request-headers (map (fn [[k v]] (string k ": " v)) (pairs headers))
         response (cjequests/request method url data request-headers)
         headers-arr (mapcat (fn [x]
